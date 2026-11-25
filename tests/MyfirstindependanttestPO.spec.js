@@ -1,6 +1,8 @@
 const {test,expect} = require('@playwright/test')
 const {LoginPage}=  require('../pageobjects/LoginPage');
 
+//adding a few comments to see CI CD Actions take place
+
 test.only ('myfirstindependanttest' , async ({page}) =>
 
 {
